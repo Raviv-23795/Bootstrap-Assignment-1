@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Bootstrap</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<style>
+		.carousel-inner img {
+			width: 100%;
+			height: 100%;
+		}
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">		
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<center><font style="font-size: 30px;font-weight: bolder;">Welcome to the world of bootstrap</font></center><div class="text-right mb-3"><a href="Signin.html" class="btn btn-primary"" role="button">Sign In</a></div>
+		<hr>
+		<nav class="row">
+			<div class="col-sm-4">
+				<a href="index.html"><h3 align="center">Home</h3></a>
+			</div>
+			<div class="col-sm-4">
+				<a href="signup.html"><h3 align="center">Register</h3></a>
+			</div>
+			<div class="col-sm-4">
+				<a href="contact.html"><h3 align="center">Contact us</h3></a>
+			</div>
+		</nav>
+		<hr>
+		
+		<div id="demo" class="carousel slide" data-ride="carousel">
+			<ul class="carousel-indicators">
+				<li data-target="#demo" data-slide-to="0" class="active"></li>
+				<li data-target="#demo" data-slide-to="1"></li>
+				<li data-target="#demo" data-slide-to="2"></li>
+			</ul>
+
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<a href="https://scotch.io/bar-talk/whats-new-in-bootstrap-4" target="_blank"><img src="img/whats-new-in-bootstrap-4.jpg" width="50%" height="50%" alt="What's new in bootstrap 4"></a>
+				</div>
+				<div class="carousel-item">
+					<a href="https://medium.com/codingthesmartway-com-blog/introduction-to-bootstrap-4-flex-layout-flexbox-for-bootstrap-f85405ce5ebf" target="_blank"><img src="img/bootstrap-4 in flex layout.jpg" width="50%" height="50%" alt="Flex layout in bootstrap 4"></a>
+				</div>
+				<div class="carousel-item">
+					<a href="signin.html" target="_blank"><img src="img/login.jpg" width="50%" height="50%" alt="Login"></a>
+				</div>
+			</div>
+
+			<a class="carousel-control-prev" href="#demo" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</a>
+			<a class="carousel-control-next" href="#demo" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</a>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<Html>
+	<head>
+		<title>Sign In</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+	</head>
+	<body>
+		<header><h1 align="center">Login</h1></header>
+		<hr>
+		<nav class="row">
+			<div class="col-sm-4">
+				<a href="index.html"><h3 align="center">Home</h3></a>
+			</div>
+			<div class="col-sm-4">
+				<a href="signup.html"><h3 align="center">Register</h3></a>
+			</div>
+			<div class="col-sm-4">
+				<a href="contact.html"><h3 align="center">Contact us</h3></a>
+			</div>
+		</nav>
+		<hr>
+		<fieldset>
+			<form action="index.html" method="POST" onsubmit="return true" autocomplete="off" style="margin-left: 80px">
+				<Label for="Enter your User ID">User ID: &nbsp;&nbsp;&nbsp;&nbsp;</label>
+				<input type="text" name="uid" required><br/><br/>
+				<Label for="Enter your password">Password: &nbsp;</label>
+				<input type="password" name="password" required maxlength="15" pattern="[a-zA-z0-9]{8,15}"><br/>
+				<center><input type="submit" value="Submit">&nbsp;&nbsp;<input type="reset" value="Reset"></center><br/>
+				<a href="signup.html" target="_blank">Signup</a>
+			</form>
+		</fieldset>
+	</body>
+</html>
